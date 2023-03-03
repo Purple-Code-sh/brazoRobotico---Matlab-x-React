@@ -10,7 +10,7 @@ function PlotlyComponent(props) {
     }
     return arr;
   };
-  const t = linspaceFn(0, 10, 66);
+  const t = linspaceFn(0, 10, 10);
   const x = t.map((i) => Math.cos(i));
   const y = t.map((i) => Math.sin(i));
   const z = t;
