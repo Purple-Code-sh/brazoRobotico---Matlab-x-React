@@ -1,6 +1,7 @@
 import Plotly from "./Plotly";
 import AnglesBars from "./components/AnglesBars";
 import "./App.css";
+import Coordinates from "./components/Coordinates";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
         <div className="block">
           <Plotly></Plotly>
         </div>
-        <div className=" bg-shBase-light w-4/5 h-32 block m-auto"></div>
+        <div className=" bg-shPrimary w-full h-32 block m-auto">
+          <Coordinates></Coordinates>
+        </div>
       </div>
     </div>
   );

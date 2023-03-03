@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Bar1() {
   const [width, setWidth] = useState(0);
   const changeWidth = (event) => {
-    setWidth(event.target.value);
+    setWidth(parseInt(event.target.value));
   };
   console.log("θ3:", width);
 
