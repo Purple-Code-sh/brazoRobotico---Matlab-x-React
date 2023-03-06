@@ -1,13 +1,18 @@
 import React from "react";
+import PointA from "./points/PointA";
+import PointB from "./points/PointB";
+import PointC from "./points/PointC";
 
 export default function PoinsSection() {
   return (
-    <div className=" bg-black w-full h-12 my-12">
-      <h3 className="w-full h-fit p-1 rounded-2xl text-center text-shBase-contrastDark text-xl font-bold pb-5">
+    <div className=" bg-shBase-dark w-full h-fit px-6 pt-0 pb-4 my-4 mb-2 rounded-2xl">
+      <h3 className="w-full h-fit p-2 rounded-2xl text-center text-shBase-light text-xl font-bold">
         Puntos guardados
       </h3>
       <section>
-        <button>A</button>
+        <PointA></PointA>
+        <PointB></PointB>
+        <PointC></PointC>
       </section>
     </div>
   );

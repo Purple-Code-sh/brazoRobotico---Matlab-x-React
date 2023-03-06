@@ -6,8 +6,11 @@ import Bar3 from "./bars/Bar3";
 export default function AnglesBars() {
   return (
     <div className="w-full">
-      <section id="bars" className=" h-fit bg-shBase-dark rounded-2xl p-6 pt-0">
-        <div className="w-full h-fit p-1 rounded-2xl text-center text-white text-xl font-bold pb-5">
+      <section
+        id="bars"
+        className=" h-fit bg-shBase-dark rounded-2xl px-6 pt-0 pb-2"
+      >
+        <div className="w-full h-fit p-2 rounded-2xl text-center text-white text-xl font-bold">
           Ángulos
         </div>
         <section className="flex w-full py-3">
@@ -35,8 +38,6 @@ export default function AnglesBars() {
           </div>
         </section>
       </section>
-
-      <section></section>
     </div>
   );
 }
