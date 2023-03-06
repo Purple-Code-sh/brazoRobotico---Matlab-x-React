@@ -1,9 +1,11 @@
-import { useState } from "react";
+import React from "react";
 
 export default function Cx() {
-  const [width, setWidth] = useState(0);
-  const changeWidth = (event) => {
-    setWidth(parseInt(event.target.value));
-  };
-  console.log;
+  return (
+    <div>
+      <h4 className=" text-center text-white p-auto bg-shPrimary-dark w-full h-6 m-2 ">
+        Eje X
+      </h4>
+    </div>
+  );
 }

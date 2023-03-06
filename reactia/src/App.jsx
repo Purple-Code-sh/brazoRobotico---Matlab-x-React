@@ -16,7 +16,7 @@ function App() {
         <div className="block">
           <Plotly></Plotly>
         </div>
-        <div className=" bg-shPrimary w-full h-32 block m-auto">
+        <div className=" bg-shBase-medium w-full h-auto block m-auto">
           <Coordinates></Coordinates>
         </div>
       </div>
