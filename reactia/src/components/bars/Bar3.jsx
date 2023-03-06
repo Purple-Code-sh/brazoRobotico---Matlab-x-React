@@ -21,7 +21,7 @@ export default function Bar1() {
       />
       <div className="flex">
         <button
-          className=" bg-shPrimary-darker hover:bg-shPrimary-dark w-14 h-7 rounded-full font-extrabold"
+          className=" bg-shPrimary-darker hover:bg-shPrimary-dark hover:text-white w-14 h-7 rounded-full font-extrabold"
           onClick={() => setWidth(width > -1024 ? width - 1 : width)}
         >
           -
@@ -30,7 +30,7 @@ export default function Bar1() {
           {width * 0.087890625}
         </h4>
         <button
-          className=" bg-shPrimary-darker hover:bg-shPrimary-dark w-14 h-7 rounded-full font-bold"
+          className=" bg-shPrimary-darker hover:bg-shPrimary-dark hover:text-white w-14 h-7 rounded-full font-bold"
           onClick={() => setWidth(width < 1024 ? width + 1 : width)}
         >
           +
